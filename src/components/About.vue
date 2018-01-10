@@ -20,7 +20,6 @@
             </div>
             <div class="about-me-p">
               <p>
-              <!-- I am a person who enjoys being challanged.  Music was my first major challege.  Afte years of working with music the time came for to find a challege outside of music.  This lead me to start learning how to code.  Since then I have grown very passinate about coding have grown to have a continual desire to learn more.  I​ ​enjoy​ ​being​ ​challenged​ ​by​ ​new,​ ​complex​ ​problems and​ ​working​ ​on​ ​projects​ ​that​ ​require​ ​me​ ​to​ ​extend​ ​myself​ ​outside​ ​of​ ​my​ ​comfort​ ​zone​ ​and knowledge​ ​set.  For more info check out my projects and resume.  Also, don't hesitate to send me a message.​​ -->
               I am a full-stack web-developer who has experince with many different technologies.  These technologies include Javascript, HTML, CSS, Vue.js, Node.js, PHP, Python, Mongo DB, and MySQL.  Ever since I started to learn development I have grown very passionate about it.  I have a continual desire to learn more.  I enjoy working on projects that require me to extend myself to outside of my comfort zone an knowledge set.  Check out my <b-link to="/resume">resume</b-link> and <b-link to="projects">project</b-link> pages.
               </p>
             </div>

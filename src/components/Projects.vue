@@ -25,12 +25,11 @@
             </ul>
           </div>
           <b-button :href="info.projectLink" target="_blank" variant="primary">View Project</b-button>
-          <b-button href="#" variant="primary">View Code</b-button>
+          <b-button :href="info.code" variant="primary">View Code</b-button>
         </b-card>
       </div>
     </div>
-</div>
-
+  </div>
 </template>
 
 <script>
@@ -46,7 +45,8 @@ export default {
           text: 'Portfolio page.',
           alt: 'Tony Oliver-Paull',
           technology: ['Vue.js', 'Vue-router', 'Bootstrap-Vue', 'Nodemailer', 'Express.js'],
-          projectLink: '#'
+          projectLink: '#',
+          code: 'https://github.com/tonyOP1985/Portfolio-Page'
         },
         {
           image: '../../static/images/cloudy-day.svg',
@@ -54,7 +54,8 @@ export default {
           text: 'Simple weather app.',
           alt: 'Weather App Cloud Icon',
           technology: ['Vue.js', 'Darksky API', 'Google Maps Geocoding API', 'Express.js'],
-          projectLink: 'https://localweatherapp-tonyop.herokuapp.com/'
+          projectLink: 'https://localweatherapp-tonyop.herokuapp.com/',
+          code: 'https://github.com/tonyOP1985/local-weather-app/tree/master/local-weather'
         },
         {
           image: '../../static/images/sailor-moon.jpg',
@@ -62,7 +63,8 @@ export default {
           text: 'Game based off of the Japanese anime.',
           alt: 'Sailor Moon',
           technology: ['Vue.js', 'Express.js'],
-          projectLink: '#'
+          projectLink: '#',
+          code: '#'
         },
         {
           image: '../../static/images/indecisionApp.png',
@@ -70,7 +72,8 @@ export default {
           text: 'Very first Vue.js app. Todo list that decides for you.',
           alt: 'Indecision App',
           technology: ['Vue.js'],
-          projectLink: 'https://obscure-wave-95185.herokuapp.com/'
+          projectLink: 'https://obscure-wave-95185.herokuapp.com/',
+          code: 'https://github.com/tonyOP1985/Indecision-App'
         },
         {
           image: '../../static/images/hangManThumbNail.png',
@@ -78,7 +81,8 @@ export default {
           text: 'Hang Man game with astronomy terms.',
           alt: 'Hang man image',
           technology: ['Javascript', 'jQuery', 'HTML', 'CSS', 'Express.js'],
-          projectLink: 'https://ancient-journey-60616.herokuapp.com/'
+          projectLink: 'https://ancient-journey-60616.herokuapp.com/',
+          code: 'https://github.com/tonyOP1985/NodeHangMan'
         }
       ]
     }
