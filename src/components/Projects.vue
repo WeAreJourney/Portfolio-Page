@@ -25,7 +25,7 @@
             </ul>
           </div>
           <b-button :href="info.projectLink" target="_blank" variant="primary">View Project</b-button>
-          <b-button :href="info.code" variant="primary">View Code</b-button>
+          <b-button :href="info.code" target="_blank" variant="primary">View Code</b-button>
         </b-card>
       </div>
     </div>
@@ -63,8 +63,8 @@ export default {
           text: 'Game based off of the Japanese anime.',
           alt: 'Sailor Moon',
           technology: ['Vue.js', 'Express.js'],
-          projectLink: '#',
-          code: '#'
+          projectLink: 'https://sailor-moon-game.herokuapp.com/',
+          code: 'https://github.com/tonyOP1985/sailor-moon-game'
         },
         {
           image: '../../static/images/indecisionApp.png',

@@ -6,7 +6,7 @@ const path = require('path')
 const serveStatic = require('serve-static')
 const history = require('connect-history-api-fallback')
 const fs = require('fs')
-const config = JSON.parse(fs.readFileSync('config.json'));
+const auth = JSON.parse(fs.readFileSync('auth.json'));
 
 const app = express()
 
@@ -39,8 +39,8 @@ app.post('/', (req, res) => {
     let transporter = nodemailer.createTransport({
         service: 'mailgun',
         auth: {
-            user: config.user,
-            pass: config.pass
+            user: auth.user,
+            pass: auth.pass
         },
         tls: {
             rejectUnathorized: false

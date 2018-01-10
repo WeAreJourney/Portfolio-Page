@@ -91,7 +91,8 @@ export default {
         })
         .catch((error) => {
           console.log(error)
-          this.msg = 'This is embarassing.  Something seems to have gone wrong. :('
+          this.msg = `This is embarassing.  Something seems to have gone wrong. :(
+                      Due to the error you can also conact me at toliverpaull@gmail.com.`
         })
         this.onReset()
     },
